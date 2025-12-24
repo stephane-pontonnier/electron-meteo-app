@@ -17,7 +17,17 @@ Installez les dépendances nécessaires via npm (le gestionnaire de paquets de N
 ```bash
 npm install
 ````
-## Lancer l'application
+## 3. Ajouter votre clé API
+
+Le projet utilise l'API WeatherAPI pour récupérer les données météo. Si vous avez créé un compte sur WeatherAPI et récupéré une clé API gratuite.
+
+Remplacez la valeur de la variable API_KEY dans le fichier script.js. Par exemple :
+
+```javascript
+const API_KEY = "votre_clé_api";
+````
+
+## 4. Lancer l'application
 
 Une fois les dépendances installées et la clé API configurée, vous pouvez démarrer l'application avec :
 
