@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Electron
+*.asar
+*.dmg
+*.exe
+*.app
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Build output
+dist/
+out/
+
+# Temporary files
+*.bak
+*.tmp
